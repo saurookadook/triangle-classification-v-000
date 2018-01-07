@@ -8,7 +8,7 @@ class Triangle
     @all_sides = []
   end
 
-  def kind
-    if 
+  # def kind
+  #   if 
 
 end
