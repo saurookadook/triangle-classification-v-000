@@ -9,7 +9,7 @@ class Triangle
   end
 
   def valid?
-    ((@a > 0 && @b > 0 && @c > 0) && (@a + @b > @c || @a + @c > @b || @b + @c > @a)) ? true : false
+    ((@a > 0 && @b > 0 && @c > 0) && (@a + @b > @c && @a + @c > @b && @b + @c > @a)) ? true : false
   end
 
   def kind
