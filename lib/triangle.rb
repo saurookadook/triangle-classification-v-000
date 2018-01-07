@@ -10,5 +10,7 @@ class Triangle
 
   def kind
     if
+    end
+  end
 
 end
