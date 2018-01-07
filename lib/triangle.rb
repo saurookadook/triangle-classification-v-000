@@ -20,6 +20,7 @@ class Triangle
     elsif self.valid? && (@a != @b != @c)
       :scalene
     elsif !(self.valid?)
+      raise TriangleError
     end
   end
 
