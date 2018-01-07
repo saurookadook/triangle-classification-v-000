@@ -5,7 +5,7 @@ class Triangle
     @a = a
     @b = b
     @c = c
-    @all_sides = []
+    # @all_sides = []
   end
 
   def kind
