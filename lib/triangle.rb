@@ -8,6 +8,10 @@ class Triangle
     # @all_sides = []
   end
 
+  def valid?
+    
+  end
+
   def kind
     if
     end
