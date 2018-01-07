@@ -19,6 +19,7 @@ class Triangle
       :isosceles
     elsif self.valid? && (@a != @b != @c)
       :scalene
+    elsif !(self.valid?)
     end
   end
 
