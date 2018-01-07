@@ -17,7 +17,7 @@ class Triangle
       :equilateral
     elsif self.valid? && (@a == @b || @a == @c || @b == @c)
       :isosceles
-    elsif self.valid? && (@a != @b != @c)
+    elsif self.valid? && (@a != @b && @a != @c && @b != @c)
       :scalene
     elsif !(self.valid?)
       raise TriangleError
