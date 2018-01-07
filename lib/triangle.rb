@@ -13,11 +13,11 @@ class Triangle
   end
 
   def kind
-    if self.valid? && (@a == @b == @c)
+    if self.valid? && (@a == @b && @a == @c)
       :equilateral
     elsif self.valid? && (@a == @b || @a == @c || @b == @c)
       :isosceles
-    elsif self.valid? && (@a != @b && @a != @c && @b != @c)
+    elsif self.valid? && (@a != @b && @a != @c)
       :scalene
     elsif !(self.valid?)
       raise TriangleError
